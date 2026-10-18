@@ -1,0 +1,42 @@
+{
+  "final_model": "Random Forest (Tuned)",
+  "selection_criterion": "highest 5-fold CV F1 on the training set",
+  "cv_f1": 0.6366,
+  "best_params": {
+    "max_depth": 8,
+    "min_samples_leaf": 1,
+    "n_estimators": 200
+  },
+  "test_metrics": {
+    "Accuracy": 0.7644,
+    "Precision": 0.5405,
+    "Recall": 0.7487,
+    "F1-Score": 0.6278,
+    "ROC-AUC": 0.8423
+  },
+  "tuning_results": {
+    "Random Forest (Tuned)": {
+      "cv_f1": 0.6366,
+      "best_params": {
+        "max_depth": 8,
+        "min_samples_leaf": 1,
+        "n_estimators": 200
+      }
+    },
+    "XGBoost (Tuned)": {
+      "cv_f1": 0.6345,
+      "best_params": {
+        "learning_rate": 0.1,
+        "max_depth": 3,
+        "n_estimators": 100
+      }
+    }
+  },
+  "optimal_threshold": 0.44,
+  "threshold_net_benefit": 31550.0,
+  "threshold_cost_assumptions": {
+    "offer_cost_per_flagged_customer": 50,
+    "lost_customer_cost": 200
+  },
+  "shap_explained_model": "Random Forest (Tuned)"
+}

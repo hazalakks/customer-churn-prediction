@@ -1,0 +1,8 @@
+Model,CV_Mean_Accuracy,CV_Std,CV_Mean_F1,CV_Std_F1
+Random Forest (Tuned),,,0.6366,
+XGBoost (Tuned),,,0.6345,
+Logistic Regression,0.7497,0.0155,0.627,0.025
+Support Vector Machine,0.7494,0.0085,0.6207,0.0173
+Decision Tree,0.7437,0.0116,0.613,0.01
+XGBoost,0.77,0.0082,0.5916,0.0165
+Random Forest,0.7898,0.0092,0.5387,0.0159

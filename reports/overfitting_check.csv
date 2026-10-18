@@ -1,0 +1,8 @@
+Model,Train Accuracy,Test Accuracy,Gap
+Decision Tree,0.7689,0.7551,0.0138
+Logistic Regression,0.7554,0.7374,0.018
+XGBoost (Tuned),0.7776,0.7488,0.0288
+Support Vector Machine,0.7781,0.7488,0.0294
+Random Forest (Tuned),0.8124,0.7644,0.048
+XGBoost,0.9496,0.7665,0.1831
+Random Forest,0.998,0.7864,0.2117
